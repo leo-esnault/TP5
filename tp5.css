@@ -1,0 +1,15 @@
+#map { 
+    height: 400px;
+    width: 100%;
+}
+
+.draggable { 
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+    z-index: 10000000000000;
+}
+
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
